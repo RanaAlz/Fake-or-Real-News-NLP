@@ -1,11 +1,18 @@
-# Patient reviews on specific drugs -NLP
+# Fake or Real News-NLP
 ## Introduction :
 
-Patient reviews on specific drugs along with related conditions and a 10 star patient rating reflecting overall patient satisfaction.What elements of a review make it more helpful to others? Which patients tend to have more negative reviews? Can you determine if a review is positive, neutral, or negative?
+In this project, we are working on a dataset that consists of text about the News . Our observation is a Fake or Real News Building NLP model which is unsupervised learning that focuses on finding meaningful topics on News.
 
 ## Data Description :
-- Columns : 7
-- Rows : Over 16K
+- Columns : 5
+* id: unique id for a news article
+* title: the title of a news article
+* author: author of the news article
+* text: the text of the article; could be incomplete
+*label: a label that marks the article as potentially unreliable
+1: unreliable
+0: reliable
+- Rows : Over 20K
 ## Tools:
 - Software platform : Jupyter Notebook
 - Programming Language : Python
